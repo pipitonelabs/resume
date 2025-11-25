@@ -7,11 +7,11 @@ const Header: React.FC = () => {
       <div className="contact-info">
         2 Gilhall Circle • Fairport, NY 14450 •{' '}
         <a href="tel:585-978-1735">585-978-1735</a> •{' '}
-        <a href="mailto:joseph.pipitone@gmail.com">joseph.pipitone@gmail.com</a>
+        <a href="mailto:joe@pipitonelabs.com">joe@pipitonelabs.com</a>
       </div>
       <p>
         <strong>GitHub:</strong>{' '}
-        <a href="https://github.com/josephpipitone" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/pipitonelabs" target="_blank" rel="noopener noreferrer">
           @josephpipitone
         </a>
       </p>

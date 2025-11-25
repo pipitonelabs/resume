@@ -12,7 +12,7 @@ const Header: React.FC = () => {
       <p>
         <strong>GitHub:</strong>{' '}
         <a href="https://github.com/pipitonelabs" target="_blank" rel="noopener noreferrer">
-          @josephpipitone
+          @pipitonelabs
         </a>
       </p>
     </header>

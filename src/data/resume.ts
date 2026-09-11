@@ -27,14 +27,14 @@ export interface SkillGroup {
 
 export const resume = {
   name: 'Joseph Pipitone',
-  title: 'Cloud Solutions Architect',
+  title: 'Cloud Systems Engineer',
   address: '2 Gilhall Circle, Fairport, NY 14450',
   phone: '585-978-1735',
   email: 'joe@pipitonelabs.com',
   github: { handle: '@pipitonelabs', url: 'https://github.com/pipitonelabs' },
 
   summary:
-    'Cloud Systems Engineer skilled in delivering IaC automation, FinOps cost optimizations (over $240K in fiscal year savings), and CCoE governance using Terraform and CloudFormation. Proficient in landing zones, policy-as-code guardrails, Agile workflows, and cross-functional team enablement. Draws from extensive background in systems administration, including VMware environments, SQL clustering, F5 load balancing, and M365 migrations. AWS Solutions Architect Associate certified. Passionate about building resilient, scalable cloud infrastructure that integrates CloudOps, SysAdmin, and DevOps principles.',
+    'Cloud Systems Engineer skilled in delivering IaC automation, FinOps cost optimizations, and CCoE governance using Terraform and CloudFormation. Proficient in landing zones, policy-as-code guardrails, Agile workflows, and cross-functional team enablement. Draws from extensive background in systems administration, including VMware environments, SQL clustering, F5 load balancing, and M365 migrations. AWS Solutions Architect Associate certified. Passionate about building resilient, scalable cloud infrastructure that integrates CloudOps, SysAdmin, and DevOps principles.',
 
   experience: [
     {
@@ -42,7 +42,7 @@ export const resume = {
       location: 'Fairport, NY',
       roles: [
         {
-          title: 'Cloud Solutions Architect',
+          title: 'Cloud Systems Engineer',
           start: '2026-01',
           end: '2026-09',
           bullets: [

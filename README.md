@@ -1,6 +1,6 @@
 # Resume App
 
-A modern, interactive resume built with React, TypeScript, and Vite. Features dark mode toggle, responsive design, and print-friendly styling.
+A modern, interactive resume built with React, TypeScript, Vite, Tailwind CSS, and shadcn/ui. Features dark mode toggle, responsive design, and print-friendly styling.
 
 ## Features
 

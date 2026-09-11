@@ -1,10 +1,24 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Joseph Pipitone - Cloud Engineer</title>
+    <meta name="color-scheme" content="dark light" />
+    <meta
+      name="description"
+      content="Resume of Joseph Pipitone, Cloud Solutions Architect: AWS landing zones, Terraform, FinOps, CCoE governance, and Kubernetes."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232F5BE8'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-family='system-ui,sans-serif' font-weight='700' font-size='30' fill='white'%3EJP%3C/text%3E%3C/svg%3E"
+    />
+    <title>Joseph Pipitone - Cloud Solutions Architect</title>
+    <script>
+      // Apply the saved theme before first paint to avoid a flash. Dark is the default.
+      try {
+        if (localStorage.getItem('theme') === 'light') document.documentElement.classList.remove('dark')
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <div id="root"></div>

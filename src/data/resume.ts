@@ -27,7 +27,7 @@ export interface SkillGroup {
 
 export const resume = {
   name: 'Joseph Pipitone',
-  title: 'Cloud Engineer',
+  title: 'Cloud Solutions Architect',
   address: '2 Gilhall Circle, Fairport, NY 14450',
   phone: '585-978-1735',
   email: 'joe@pipitonelabs.com',
@@ -39,7 +39,7 @@ export const resume = {
   experience: [
     {
       company: 'MegazoneCloud',
-      location: 'Remote',
+      location: 'Fairport, NY',
       roles: [
         {
           title: 'Cloud Solutions Architect',
@@ -48,12 +48,11 @@ export const resume = {
           bullets: [
             'Delivered cloud consulting engagements for enterprise customers, crafting architectures that span security, data, application, and operations.',
             'Led AWS Migration Acceleration Program (MAP) assessments: discovery, application portfolio analysis, TCO and business case modeling, and migration wave planning.',
-            'Designed multi-account AWS landing zones with AWS Organizations, Control Tower, and IAM Identity Center, defining IAM, network segmentation, encryption standards, and policy-as-code guardrails delivered through Terraform.',
+            'Designed multi-account AWS landing zones with AWS Organizations, Control Tower, and IAM Identity Center, defining IAM, network segmentation, and encryption standards, with policy-as-code guardrails delivered through Terraform, CloudFormation, and AWS CDK, including AWS Landing Zone Accelerator (LZA) deployments with pipeline-based customization.',
             'Produced infrastructure architecture designs and solution diagrams for pursuit teams, supporting proposals, statements of work, and customer workshops.',
             'Built reusable reference implementations (Terraform modules, account vending, CI/CD pipelines) adopted across engagements to shorten delivery time.',
             'Championed shift-left security and FinOps practices, embedding guardrails, cost allocation tagging, and rightsizing recommendations into every design.',
             'Mentored customer and partner engineers through build and migration phases, and served as the technical escalation point during go-live and hyper-care.',
-            'Presented technical vision and architecture roadmaps to C-suite stakeholders and enterprise architects.',
             'Authored internal knowledge articles and technical documentation to capture engagement patterns and lessons learned.',
           ],
         },

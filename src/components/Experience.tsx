@@ -17,7 +17,7 @@ const Experience: React.FC = () => {
         {resume.experience.map((employer) => {
           const current = employer.roles[0].end === null
           return (
-            <li key={employer.company} className="relative pb-12 last:pb-0 print-avoid-break">
+            <li key={employer.company} className="relative pb-12 last:pb-0">
               <span
                 aria-hidden
                 className={
@@ -26,7 +26,7 @@ const Experience: React.FC = () => {
                 }
               />
 
-              <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
+              <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4 print:break-after-avoid">
                 <div>
                   <h3 className="font-heading text-xl font-semibold tracking-tight">{employer.company}</h3>
                   <p className="text-sm text-muted-foreground">{employer.location}</p>
@@ -38,8 +38,8 @@ const Experience: React.FC = () => {
 
               <div className="mt-5 space-y-8">
                 {employer.roles.map((role) => (
-                  <article key={role.title} className="print-avoid-break">
-                    <div className="flex flex-col gap-1.5 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
+                  <article key={role.title}>
+                    <div className="flex flex-col gap-1.5 sm:flex-row sm:items-center sm:justify-between sm:gap-4 print:break-after-avoid">
                       <h4 className="text-base font-semibold">{role.title}</h4>
                       <Badge variant="outline" className="h-6 shrink-0 self-start font-normal tabular-nums sm:self-auto">
                         {formatRange(role.start, role.end)}

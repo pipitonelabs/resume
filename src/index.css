@@ -237,7 +237,8 @@
     transform: none;
   }
 
-  .print-avoid-break {
+  .print-avoid-break,
+  ul > li {
     break-inside: avoid;
   }
 

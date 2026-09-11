@@ -27,13 +27,13 @@ const Experience: React.FC = () => {
               />
 
               <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
-                <h3 className="font-heading text-xl font-semibold tracking-tight">{employer.company}</h3>
-                <p className="text-sm text-muted-foreground sm:shrink-0">
-                  {employer.location}
-                  {employer.roles.length > 1 && (
-                    <span className="tabular-nums"> {' · '} {tenure(employer)}</span>
-                  )}
-                </p>
+                <div>
+                  <h3 className="font-heading text-xl font-semibold tracking-tight">{employer.company}</h3>
+                  <p className="text-sm text-muted-foreground">{employer.location}</p>
+                </div>
+                {employer.roles.length > 1 && (
+                  <p className="text-sm text-muted-foreground tabular-nums sm:shrink-0">{tenure(employer)}</p>
+                )}
               </div>
 
               <div className="mt-5 space-y-8">
